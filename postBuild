@@ -7,4 +7,5 @@ git pull
 jupyter nbextension install accessibility_toolbar --user
 jupyter nbextension enable accessibility_toolbar/main --user
 rm -rf jupyter_contrib_nbextensions/
+cd ../../../../
 jupyter trust Notebook tips.ipynb
