@@ -8,4 +8,4 @@ jupyter nbextension install accessibility_toolbar --user
 jupyter nbextension enable accessibility_toolbar/main --user
 cd
 rm -rf jupyter_contrib_nbextensions/
-jupyter trust Notebook tips.ipynb
+jupyter trust Notebook\ tips.ipynb
