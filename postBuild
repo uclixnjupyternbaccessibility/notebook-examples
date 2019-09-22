@@ -1,4 +1,5 @@
 git clone https://github.com/uclixnjupyternbaccessibility/accessibility_toolbar.git
+cd accessibility_toolbar
 jupyter nbextension install accessibility_toolbar/main
 jupyter nbextension enable accessibility_toolbar/main
 jupyter trust Notebook\ tips.ipynb
