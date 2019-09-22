@@ -1,11 +1,3 @@
-jupyter contrib nbextension install --user
-mkdir tmp
-git clone https://github.com/uclixnjupyternbaccessibility/jupyter_contrib_nbextensions.git
-cd jupyter_contrib_nbextensions/src/jupyter_contrib_nbextensions/nbextensions
-git checkout dev
-git pull
-jupyter nbextension install accessibility_toolbar --user
+bower install --config.directory="$(jupyter --data-dir)/nbextensions" accessibility_toolbar
 jupyter nbextension enable accessibility_toolbar/main --user
-cd
-rm -rf jupyter_contrib_nbextensions/
 jupyter trust Notebook\ tips.ipynb
