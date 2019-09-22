@@ -1,4 +1,4 @@
-sudo apt-get install nodejs-legacy
-bower install --config.directory="$(jupyter --data-dir)/nbextensions" accessibility_toolbar
-jupyter nbextension enable accessibility_toolbar/main --user
+git clone https://github.com/uclixnjupyternbaccessibility/accessibility_toolbar.git
+jupyter nbextension install accessibility_toolbar/main
+jupyter nbextension enable accessibility_toolbar/main
 jupyter trust Notebook\ tips.ipynb
